@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url('bg.jpeg'); 
+    background-size: cover; */
+    overflow: hidden;
+    height: 100vh;
+}
+
+.taskbar{
+    background-color: #f3f3f3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+}
+
+
+
+.startmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in; 
+}
+
+.startmenu img{
+    border-radius: 20px;
+}
+
+.right{
+    
+    position: absolute;
+    right: 110px;
+    margin: 6px 0;
+    height: 85%;
+}  
+.notifications{
+    
+    position: absolute;
+    right: 0px;
+    margin: 6px 0;
+    height: 85%;
+}  
+.icons{
+    color: rgba(22, 8, 8, 0.74);
+}
+.windowskey{
+    background-color: #f3f3f3;
+    position: absolute;
+    right: 910px;
+    z-index: 110;
+    bottom: -9px;
+}
+.recyclebin {
+    position: absolute;
+    z-index: 110;
+    bottom: 550px;
+    right: 1480px;
+    text-align: center;
+}
+.edge {
+    right: 735px;
+    z-index: 110;
+    bottom: 5px;
+    border: none;
+    position: absolute;
+}
+.apps {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 1px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#current_date{
+    font-size: 12px;
+    right: 50px;
+    z-index: 110;
+    bottom: 10px;
+    position: absolute;
+  }
+ #current_time{
+    font-size: 12px;
+    right: 60px;
+    z-index: 110;
+    bottom: 30px;
+    position: absolute;
+  }
